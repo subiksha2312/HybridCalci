@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/inputValue"
+                android:layout_width="200dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="25dp"
+                android:background="@color/teal_200"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                app:iconTint="#875454" />
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:text="ac"
+                android:id="@+id/clear"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1">
+
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/number7"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@color/teal_200"
+                android:layout_marginLeft="25dp"
+                android:text="7"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                app:iconTint="#875454" />
+            <Button
+                android:id="@+id/number8"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@color/teal_200"
+                android:layout_marginLeft="25dp"
+                android:text="8"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                app:iconTint="#875454" />
+            <Button
+                android:id="@+id/number9"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@color/teal_200"
+                android:layout_marginLeft="25dp"
+                android:text="9"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                app:iconTint="#875454" />
+            <Button
+                android:id="@+id/division"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@color/teal_200"
+                android:layout_marginLeft="25dp"
+                android:text="/"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                app:iconTint="#875454" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/number4"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@color/teal_200"
+                android:layout_marginLeft="25dp"
+                android:text="4"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                app:iconTint="#875454" />
+            <Button
+                android:id="@+id/number5"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@color/teal_200"
+                android:layout_marginLeft="25dp"
+                android:text="5"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                app:iconTint="#875454" />
+            <Button
+                android:id="@+id/number6"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@color/teal_200"
+                android:layout_marginLeft="25dp"
+                android:text="6"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                app:iconTint="#875454" />
+            <Button
+                android:id="@+id/multiply"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@color/teal_200"
+                android:layout_marginLeft="25dp"
+                android:text="*"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                app:iconTint="#875454" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/number1"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@color/teal_200"
+                android:layout_marginLeft="25dp"
+                android:text="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                app:iconTint="#875454" />
+            <Button
+                android:id="@+id/number2"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@color/teal_200"
+                android:layout_marginLeft="25dp"
+                android:text="2"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                app:iconTint="#875454" />
+            <Button
+                android:id="@+id/number3"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@color/teal_200"
+                android:layout_marginLeft="25dp"
+                android:text="3"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                app:iconTint="#875454" />
+            <Button
+                android:id="@+id/subtract"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@color/teal_200"
+                android:layout_marginLeft="25dp"
+                android:text="-"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                app:iconTint="#875454" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/number0"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@color/teal_200"
+                android:layout_marginLeft="25dp"
+                android:text="0"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                app:iconTint="#875454" />
+            <Button
+                android:id="@+id/equal"
+                android:layout_width="164dp"
+                android:layout_height="70dp"
+                android:background="@color/teal_200"
+                android:layout_marginLeft="25dp"
+                android:text="="
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                app:iconTint="#875454" />
+            <Button
+                android:id="@+id/addition"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@color/teal_200"
+                android:layout_marginLeft="25dp"
+                android:text="+"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                app:iconTint="#875454" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
